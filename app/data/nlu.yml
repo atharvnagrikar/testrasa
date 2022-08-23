@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: cdac_info
+  examples: |
+    - What is CDAC?
+    - cdac?
+    - CDAC?
+    - cdac
+    - cdac
+    - what is cdac?
+    - who is cdac?
+    - cdac info
+    - want to know about cdac
+    - CDAC info?
+
+- intent: param_shavak_info
+  examples: |
+    - What is param shavak system?
+    - what is param shavak?
+    - param shavak
+    - shavak
+    - cdac shavak
+
+- intent: type_of_param_shavak
+  examples: |
+    - What are types param shavak system?
+    - what are types param shavak?
+    - param shavak types
+    - shavak types
+    - cdac shavak types
+    - types of param shavak
+    - types of shavak
+
+- intent: param_shavak_HPC
+  examples: |
+    - What are types param shavak HPC system?
+    - what are types param hpc shavak?
+    - param shavak hpc
+    - shavak hpc
+    - cdac shavak hpc
+    - param shavak hpc system
+    - hpc shavak
+
+- intent: param_shavak_DL
+  examples: |
+    - What are types param shavak DL system?
+    - what are types param dl shavak?
+    - param shavak dl
+    - shavak dl
+    - cdac shavak DL
+    - param shavak DL system
+    - dl shavak
+    
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+

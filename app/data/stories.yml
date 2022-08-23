@@ -1,0 +1,56 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: cdac path
+  steps:
+  - intent: cdac_info
+  - action: utter_cdacinfo
+
+- story: param shavak path
+  steps:
+  - intent: param_shavak_info
+  - action: utter_paramshavakinfo
+
+- story: param shavak type  path
+  steps:
+  - intent: type_of_param_shavak
+  - action: utter_type_of_param_shavak
+
+- story: param shavak HPC  path
+  steps:
+  - intent: param_shavak_HPC
+  - action: utter_param_shavak_hpc
+
+- story: param shavak DL  path
+  steps:
+  - intent: param_shavak_DL
+  - action: utter_param_shavak_dl
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
